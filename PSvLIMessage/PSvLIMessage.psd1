@@ -13,6 +13,7 @@
   Author            = 'Markus Kraus'
   CompanyName       = 'mycloudrevolution'
   Copyright         = '(c) 2016 Markus Kraus. All rights reserved.'
+  Description = 'PowerShell module to query the StackExchange API'
   PowerShellVersion = '3.0'
   FunctionsToExport = 'Push-vLIMessage'
   CmdletsToExport   = ''
