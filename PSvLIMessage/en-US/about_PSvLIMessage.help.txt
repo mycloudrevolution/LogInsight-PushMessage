@@ -1,0 +1,20 @@
+PSTOPIC
+    PSvLIMessage
+
+SHORT DESCRIPTION
+    PSvLIMessage allows you to Push Messages to VMware vRealize LogInisght via API  
+
+LONG DESCRIPTION
+    PSvLIMessage allows you to Push Messages to VMware vRealize LogInisght via API  
+
+    You can find API documentation here:
+    http://pubs.vmware.com/log-insight-33/index.jsp?topic=%2Fcom.vmware.log-insight.developer.doc%2FGUID-01C38893-118A-451F-90D6-66F33F6CA26A.html&resultof=%22ingestion%22%20%22ingest%22%20
+
+DETAILED DESCRIPTION
+    PSvLIMessage allows you to Push Messages to VMware vRealize LogInisght via API  
+
+    You can find API documentation here:
+    http://pubs.vmware.com/log-insight-33/index.jsp?topic=%2Fcom.vmware.log-insight.developer.doc%2FGUID-01C38893-118A-451F-90D6-66F33F6CA26A.html&resultof=%22ingestion%22%20%22ingest%22%20
+	
+	You can find more Details about the Function on my Blog:
+	http://mycloudrevolution.com/2016/05/25/mit-powershell-ein-vrealize-log-insight-event-erzeugen/
