@@ -13,7 +13,7 @@
   Author            = 'Markus Kraus'
   CompanyName       = 'mycloudrevolution'
   Copyright         = '(c) 2016 Markus Kraus. All rights reserved.'
-  Description = 'PowerShell module to query the StackExchange API'
+  Description       = 'PSvLIMessage allows you to Push Messages to VMware vRealize LogInisght via API '
   PowerShellVersion = '3.0'
   FunctionsToExport = 'Push-vLIMessage'
   CmdletsToExport   = ''

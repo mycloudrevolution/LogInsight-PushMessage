@@ -19,10 +19,10 @@
   	Push Messages to VMware vRealize Log Insight.
 
   .EXAMPLE
-    Push-vLIMessage -vLIServer "loginsight.lan.local -vLIAgentID "12862842-5A6D-679C-0E38-0E2BE888BB28" -Text "My Test"
+    Push-vLIMessage -vLIServer "loginsight.lan.local" -vLIAgentID "12862842-5A6D-679C-0E38-0E2BE888BB28" -Text "My Test"
 	
   .EXAMPLE
-    Push-vLIMessage -vLIServer "loginsight.lan.local -vLIAgentID "12862842-5A6D-679C-0E38-0E2BE888BB28" -Text "My Test" -Hostname MyTEST -FieldName myTest -FieldContent myTest
+    Push-vLIMessage -vLIServer "loginsight.lan.local" -vLIAgentID "12862842-5A6D-679C-0E38-0E2BE888BB28" -Text "My Test" -Hostname MyTEST -FieldName myTest -FieldContent myTest
 	
   .PARAMETER vLIServer
     Specify the vLI FQDN	
