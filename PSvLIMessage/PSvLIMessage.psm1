@@ -37,7 +37,7 @@
     Specify the Hostanme displayed in vLI
 
   .PARAMETER FieldName
-    Specify the a Optinal Field Name for vLI
+    Specify the a Optional Field Name for vLI
 	
   .PARAMETER FieldContent
     Specify the a Optional FieldContent for the Field in -FieldName for vLI

@@ -16,7 +16,7 @@ PSvLIMessage PowerShell Module
 
 Project Owner: Markus Kraus
 
-Project WebSite: http://mycloudrevolution.com/
+Project WebSite: bit.ly/1YXY2gq
 
 Project Details:
 

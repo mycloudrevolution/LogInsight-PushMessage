@@ -7,13 +7,13 @@
 #
 
 @{
-  RootModule        = 'PSvLIMessage'
-  ModuleVersion     = '1.0.0'
+  RootModule        = 'PSvLIMessage.psm1'
+  ModuleVersion     = '1.0.1'
   GUID              = '2178ce2b-74f6-48ad-83ef-8e6bc37b5606'
   Author            = 'Markus Kraus'
   CompanyName       = 'mycloudrevolution'
   Copyright         = '(c) 2016 Markus Kraus. All rights reserved.'
-  Description       = 'PSvLIMessage allows you to Push Messages to VMware vRealize LogInisght via API '
+  Description       = 'PSvLIMessage allows you to Push Messages to VMware vRealize LogInsight via API '
   PowerShellVersion = '3.0'
   FunctionsToExport = 'Push-vLIMessage'
   CmdletsToExport   = ''
