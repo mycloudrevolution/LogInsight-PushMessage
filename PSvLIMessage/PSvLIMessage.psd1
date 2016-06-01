@@ -8,7 +8,7 @@
 
 @{
   RootModule        = 'PSvLIMessage.psm1'
-  ModuleVersion     = '1.0.1'
+  ModuleVersion     = '1.0.2'
   GUID              = '2178ce2b-74f6-48ad-83ef-8e6bc37b5606'
   Author            = 'Markus Kraus'
   CompanyName       = 'mycloudrevolution'
@@ -19,4 +19,13 @@
   CmdletsToExport   = ''
   VariablesToExport = ''
   AliasesToExport   = ''
+  PrivateData = @{
+      PSData = @{
+        Tags          = 'VMware', 'vRealize', 'LogInsight', 'REST', 'API'
+        LicenseUri    = 'https://github.com/mycloudrevolution/LogInsight-PushMessage/LICENSE'
+        ProjectUri    = 'https://github.com/mycloudrevolution/LogInsight-PushMessage/'
+        IconUri       = ''
+        ReleaseNotes  = ''
+    }
+  } 
 }
