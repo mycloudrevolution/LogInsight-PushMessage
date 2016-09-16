@@ -1,37 +1,36 @@
 ﻿<#
-  .SYNOPSIS
-    Push Messages to VMware vRealize Log Insight.
+	.SYNOPSIS
+	Push Messages to VMware vRealize Log Insight.
   
-  .DESCRIPTION
-  	Push Messages to VMware vRealize Log Insight.
+	.DESCRIPTION
+	Push Messages to VMware vRealize Log Insight.
 
-  .EXAMPLE
-    Push-vLIMessage -vLIServer "loginsight.lan.local" -vLIAgentID "12862842-5A6D-679C-0E38-0E2BE888BB28" -Text "My Test"
+	.EXAMPLE
+	Push-vLIMessage -vLIServer "loginsight.lan.local" -vLIAgentID "12862842-5A6D-679C-0E38-0E2BE888BB28" -Text "My Test"
 	
-  .EXAMPLE
-    Push-vLIMessage -vLIServer "loginsight.lan.local" -vLIAgentID "12862842-5A6D-679C-0E38-0E2BE888BB28" -Text "My Test" -Hostname MyTEST -FieldName myTest -FieldContent myTest
+	.EXAMPLE
+	Push-vLIMessage -vLIServer "loginsight.lan.local" -vLIAgentID "12862842-5A6D-679C-0E38-0E2BE888BB28" -Text "My Test" -Hostname MyTEST -FieldName myTest -FieldContent myTest
 	
-  .PARAMETER vLIServer
-    Specify the vLI FQDN	
+	.PARAMETER vLIServer
+	Specify the vLI FQDN	
 
-  .PARAMETER vLIAgentID
-    Specify the vLI Agent ID
+	.PARAMETER vLIAgentID
+	Specify the vLI Agent ID
 
-  .PARAMETER Text
-    Specify the Event Text
+	.PARAMETER Text
+	Specify the Event Text
 
-  .PARAMETER Hostname
-    Specify the Hostanme displayed in vLI
+	.PARAMETER Hostname
+	Specify the Hostanme displayed in vLI
 
-  .PARAMETER FieldName
-    Specify the a Optional Field Name for vLI
+	.PARAMETER FieldName
+	Specify the a Optional Field Name for vLI
 	
-  .PARAMETER FieldContent
-    Specify the a Optional FieldContent for the Field in -FieldName for vLI
+	.PARAMETER FieldContent
+	Specify the a Optional FieldContent for the Field in -FieldName for vLI
 	If FielName is missing and FieldContent is given, it will be ignored
 	
  #Requires PS -Version 2.0
- 
  #>
 add-type @"
     using System.Net;
