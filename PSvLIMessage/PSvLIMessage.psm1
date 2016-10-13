@@ -30,7 +30,7 @@
 	Specify the a Optional FieldContent for the Field in -FieldName for vLI
 	If FielName is missing and FieldContent is given, it will be ignored
 	
- #Requires PS -Version 2.0
+ #Requires PS -Version 4.0
  #>
 add-type @"
     using System.Net;
@@ -49,18 +49,18 @@ function Push-vLIMessage {
 
 	[cmdletbinding()]
 	param (
-	[parameter(Mandatory=$true)]
-	[string]$Text,
-	[parameter(Mandatory=$true)]
-	[string]$vLIServer,
-	[parameter(Mandatory=$true)]
-	[string]$vLIAgentID,
-	[parameter(Mandatory=$false)]
-	[string]$Hostname = $env:computername,
-	[parameter(Mandatory=$false)]
-	[string]$FieldName,
-	[parameter(Mandatory=$false)]
-	[string]$FieldContent = ""
+		[parameter(Mandatory=$true, Position=0)]
+			[string]$vLIServer,
+		[parameter(Mandatory=$true, Position=1)]
+			[string]$vLIAgentID,
+		[parameter(Mandatory=$true, Position=2)]
+			[string]$Text,
+		[parameter(Mandatory=$false, Position=3)]
+			[string]$Hostname = $env:computername,
+		[parameter(Mandatory=$false, Position=4)]
+			[string]$FieldName,
+		[parameter(Mandatory=$false, Position=5)]
+			[string]$FieldContent = ""
 	)
 	Process {
 		$Field_vLI = [ordered]@{
@@ -93,7 +93,7 @@ function Push-vLIMessage {
 		try
 		{
 			$Response = Invoke-RestMethod $Resturl -Method Post -Body $Restcall -ContentType 'application/json' -ErrorAction stop
-			Write-Information "REST Call to Log Insight server successful"
+			Write-Information "REST Call to Log Insight server successfull"
 			Write-Verbose $Response
 		}
 		catch

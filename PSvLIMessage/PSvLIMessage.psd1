@@ -1,5 +1,5 @@
 #
-# Modulmanifest für das Modul "PSvLIMessage"
+# Modulmanifest fï¿½r das Modul "PSvLIMessage"
 #
 # Generiert von: Markus Kraus
 #
@@ -8,11 +8,11 @@
 
 @{
 
-# Die diesem Manifest zugeordnete Skript- oder Binärmoduldatei.
+# Die diesem Manifest zugeordnete Skript- oder Binï¿½rmoduldatei.
 RootModule = 'PSvLIMessage.psm1'
 
 # Die Versionsnummer dieses Moduls
-ModuleVersion = '1.0.3'
+ModuleVersion = '1.1.0'
 
 # ID zur eindeutigen Kennzeichnung dieses Moduls
 GUID = '2178ce2b-74f6-48ad-83ef-8e6bc37b5606'
@@ -21,39 +21,39 @@ GUID = '2178ce2b-74f6-48ad-83ef-8e6bc37b5606'
 Author = 'Markus Kraus'
 
 # Unternehmen oder Hersteller dieses Moduls
-CompanyName = 'mycloudrevolution'
+CompanyName = 'mycloudrevolution.com'
 
-# Urheberrechtserklärung für dieses Modul
+# Urheberrechtserklï¿½rung fï¿½r dieses Modul
 Copyright = '(c) 2016 Markus Kraus. All rights reserved.'
 
 # Beschreibung der von diesem Modul bereitgestellten Funktionen
 Description = 'PSvLIMessage allows you to Push Messages to VMware vRealize LogInsight via API '
 
-# Die für dieses Modul mindestens erforderliche Version des Windows PowerShell-Moduls
+# Die fï¿½r dieses Modul mindestens erforderliche Version des Windows PowerShell-Moduls
 PowerShellVersion = '3.0'
 
-# Der Name des für dieses Modul erforderlichen Windows PowerShell-Hosts
+# Der Name des fï¿½r dieses Modul erforderlichen Windows PowerShell-Hosts
 # PowerShellHostName = ''
 
-# Die für dieses Modul mindestens erforderliche Version des Windows PowerShell-Hosts
+# Die fï¿½r dieses Modul mindestens erforderliche Version des Windows PowerShell-Hosts
 # PowerShellHostVersion = ''
 
-# Die für dieses Modul mindestens erforderliche Microsoft .NET Framework-Version
+# Die fï¿½r dieses Modul mindestens erforderliche Microsoft .NET Framework-Version
 # DotNetFrameworkVersion = ''
 
-# Die für dieses Modul mindestens erforderliche Version der CLR (Common Language Runtime)
+# Die fï¿½r dieses Modul mindestens erforderliche Version der CLR (Common Language Runtime)
 # CLRVersion = ''
 
-# Die für dieses Modul erforderliche Prozessorarchitektur ("Keine", "X86", "Amd64").
+# Die fï¿½r dieses Modul erforderliche Prozessorarchitektur ("Keine", "X86", "Amd64").
 ProcessorArchitecture = 'None'
 
-# Die Module, die vor dem Importieren dieses Moduls in die globale Umgebung geladen werden müssen
+# Die Module, die vor dem Importieren dieses Moduls in die globale Umgebung geladen werden mï¿½ssen
 # RequiredModules = @()
 
-# Die Assemblys, die vor dem Importieren dieses Moduls geladen werden müssen
+# Die Assemblys, die vor dem Importieren dieses Moduls geladen werden mï¿½ssen
 RequiredAssemblies = @()
 
-# Die Skriptdateien (PS1-Dateien), die vor dem Importieren dieses Moduls in der Umgebung des Aufrufers ausgeführt werden.
+# Die Skriptdateien (PS1-Dateien), die vor dem Importieren dieses Moduls in der Umgebung des Aufrufers ausgefï¿½hrt werden.
 ScriptsToProcess = @()
 
 # Die Typdateien (.ps1xml), die beim Importieren dieses Moduls geladen werden sollen
@@ -86,7 +86,7 @@ AliasesToExport = @()
 # Liste aller Dateien in diesem Modulpaket
 FileList = @()
 
-# Die privaten Daten, die an das in "RootModule/ModuleToProcess" angegebene Modul übergeben werden sollen. Diese können auch eine PSData-Hashtabelle mit zusätzlichen von PowerShell verwendeten Modulmetadaten enthalten.
+# Die privaten Daten, die an das in "RootModule/ModuleToProcess" angegebene Modul ï¿½bergeben werden sollen. Diese kï¿½nnen auch eine PSData-Hashtabelle mit zusï¿½tzlichen von PowerShell verwendeten Modulmetadaten enthalten.
 PrivateData = @{
 
     PSData = @{
@@ -95,10 +95,10 @@ PrivateData = @{
         Tags = 'VMware','vRealize','LogInsight','REST','API'
 
         # A URL to the license for this module.
-        LicenseUri = 'https://github.com/mycloudrevolution/LogInsight-PushMessage/LICENSE'
+        # LicenseUri = 'https://github.com/mycloudrevolution/LogInsight-PushMessage/LICENSE'
 
         # A URL to the main website for this project.
-        ProjectUri = 'https://github.com/mycloudrevolution/LogInsight-PushMessage/'
+        ProjectUri = 'http://mycloudrevolution.com/2016/05/25/mit-powershell-ein-vrealize-log-insight-event-erzeugen/'
 
         # A URL to an icon representing this module.
         # IconUri = ''
@@ -116,7 +116,7 @@ PrivateData = @{
 # HelpInfo-URI dieses Moduls
 # HelpInfoURI = ''
 
-# Standardpräfix für Befehle, die aus diesem Modul exportiert werden. Das Standardpräfix kann mit "Import-Module -Prefix" überschrieben werden.
+# Standardprï¿½fix fï¿½r Befehle, die aus diesem Modul exportiert werden. Das Standardprï¿½fix kann mit "Import-Module -Prefix" ï¿½berschrieben werden.
 # DefaultCommandPrefix = ''
 
 }

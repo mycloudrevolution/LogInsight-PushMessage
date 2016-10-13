@@ -16,7 +16,7 @@ PSvLIMessage PowerShell Module
 
 Project Owner: Markus Kraus
 
-Project WebSite: bit.ly/1YXY2gq
+Project WebSite: http://mycloudrevolution.com/2016/05/25/mit-powershell-ein-vrealize-log-insight-event-erzeugen/
 
 Project Details:
 
